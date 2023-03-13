@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TicketMap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <div class="container text-center my-3">
+        <div class="row mx-auto my-auto justify-content-center mb-4">
+            <div id="recipeCarousel" class="carousel slide">
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="./img/terminator.jpg" class="img-fluid">
+                                </div>
+                            </div>
+                            <h5 class="card-title">The Terminator</h5>
+                            <p class="card-text">1984</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="./img/terminator_2.jpg" class="img-fluid">
+                                </div>
+                            </div>
+                            <h5 class="card-title">Terminator 2: Judgment Day</h5>
+                            <p class="card-text">1991</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="./img/terminator_3.jpg" class="img-fluid">
+                                </div>
+                            </div>
+                            <h5 class="card-title">Terminator 3: Rise of the Machines</h5>
+                            <p class="card-text">2003</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="./img/terminator_4.jpg" class="img-fluid">
+                                </div>
+                            </div>
+                            <h5 class="card-title">Terminator Salvation</h5>
+                            <p class="card-text">2009</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="./img/terminator_5.jpg" class="img-fluid">
+                                </div>
+                            </div>
+                            <h5 class="card-title">Terminator Genisys</h5>
+                            <p class="card-text">2015</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="./img/terminator_6.jpg" class="img-fluid">
+                                </div>
+                            </div>
+                            <h5 class="card-title">Terminator Dark Fate</h5>
+                            <p class="card-text">2019</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+            </div>
+        </div>
+
+
+
+        <div class="row mx-auto my-auto justify-content-center mb-4">
+            <div class="row hall-sample">
+                <div class="screen-sample">
+                    <div class="screen-sample__text">
+                        Screen
+                    </div>
+                </div>
+
+
+
+                <div class="col seats">
+                    <div class="seat-sample">
+                        <div class="seat-sample__text">
+                            Seat
+                        </div>
+                    </div>
+                    <div class="seat-map">
+
+                        <div class="seat-map__item seat-map__item_green">
+                        </div>
+                        <p>Seat available</p>
+
+                        <div class="seat-map__item seat-map__item_red">
+                        </div>
+                        <p>Seat taken</p>
+
+                        <div class="seat-map__item seat-map__item_blue">
+                        </div>
+                        <p>Selected seat</p>
+                    </div>
+
+
+                </div>
+                <div class="row-sample">
+
+                    <div class="row-sample__text">
+                        Row
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+        <div class="row mx-auto my-auto justify-content-center align-items-center price-area">
+            <div class="col-8">
+                <div class="row align-items-center mb-3">
+                    <div class="col price-area__text">Seat Price</div>
+                    <div class="col price-area__amount">$</div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col price-area__text">Total Price</div>
+                    <div class="col price-area__amount">$</div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <button type="button" class="btn btn-success">BUY</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
