@@ -141,7 +141,7 @@ const buyBtn = document.getElementById('buyBtn').addEventListener('click', buyTi
 
 function buyTicket() {
     if (totalPrice.textContent <= '$ 0' || totalPrice.textContent === '$') {
-        alert('Choose a ticket');
+        alert('Choose a seat, please.');
     } else {
         alert(`Total price is: ${totalPrice.textContent}
         Confirm Purchase By Clicking OK`);
